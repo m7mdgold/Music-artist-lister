@@ -30,3 +30,4 @@ def lister(data):
     cowsay.cow(song)
 
 main()
+input("press any key to exit...")
