@@ -10,8 +10,6 @@ def main():
     lister(data)
 
 
-
-
 def get_data(artist , num):
     data = requests.get("https://itunes.apple.com/search?entity=song&limit="+ num + "&term=" + artist ).json()
     
@@ -31,14 +29,4 @@ def lister(data):
     
     cowsay.cow(song)
 
-
-
-
-
-
-
-
-
 main()
-
-
